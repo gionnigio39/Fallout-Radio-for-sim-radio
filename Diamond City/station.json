@@ -12,11 +12,11 @@
       "files": [
         {
           "path": "A Wonderful Guy.m4a",
-          "duration": 60603
+          "duration": 553
         },
         {
           "path": "Uranium Rock.m4a",
-          "duration": 6025
+          "duration": 525
         }        
       ]
     },
@@ -25,15 +25,15 @@
       "files": [
         {
           "path": "silenzio.m4a",
-          "duration": 60
+          "duration": 5
         },
         {
           "path": "silenzio.m4a",
-          "duration": 60
+          "duration": 5
         },
         {
           "path": "silenzio.m4a",
-          "duration": 60
+          "duration": 5
         }
       ]
     },
@@ -42,15 +42,15 @@
       "files": [
         {
           "path": "silenzio.m4a",
-          "duration": 60
+          "duration": 5
         },
         {
           "path": "silenzio.m4a",
-          "duration": 60
+          "duration": 5
         },
         {
           "path": "silenzio.m4a",
-          "duration": 60
+          "duration": 5
         }
       ]
     }
