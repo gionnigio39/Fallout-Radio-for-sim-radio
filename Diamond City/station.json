@@ -2,7 +2,7 @@
   "tag": "Diamond City Radio",
   "info": {
     "title": "Diamond City Radio",
-    "genre": "Anni 50",
+    "genre": "Anni 60",
     "logo": "logo.png",
     "dj": "prova"
   },
@@ -12,11 +12,11 @@
       "files": [
         {
           "path": "A Wonderful Guy.m4a",
-          "duration": 553
+          "duration": 663
         },
         {
           "path": "Uranium Rock.m4a",
-          "duration": 525
+          "duration": 626
         }        
       ]
     },
@@ -25,15 +25,15 @@
       "files": [
         {
           "path": "silenzio.m4a",
-          "duration": 5
+          "duration": 6
         },
         {
           "path": "silenzio.m4a",
-          "duration": 5
+          "duration": 6
         },
         {
           "path": "silenzio.m4a",
-          "duration": 5
+          "duration": 6
         }
       ]
     },
@@ -42,15 +42,15 @@
       "files": [
         {
           "path": "silenzio.m4a",
-          "duration": 5
+          "duration": 6
         },
         {
           "path": "silenzio.m4a",
-          "duration": 5
+          "duration": 6
         },
         {
           "path": "silenzio.m4a",
-          "duration": 5
+          "duration": 6
         }
       ]
     }
