@@ -1,0 +1,126 @@
+{
+  "tag": "",
+  "info": {
+    "title": "",
+    "genre": "",
+    "logo": "logo.png",
+    "dj": ""
+  },
+  "fileGroups": [
+    {
+      "tag": "track",
+      "files": [
+        {
+          "path": "A Wonderful Guy.m4a",
+          "duration": 113
+        },
+        {
+          "path": "Uranium Rock.m4a",
+          "duration": 125
+        }        
+      ]
+    },
+    {
+      "tag": "general",
+      "files": [
+        {
+          "path": "",
+          "duration": 0000
+        },
+        {
+          "path": "",
+          "duration": 0000
+        },
+        {
+          "path": "",
+          "duration": 0000
+        }
+      ]
+    },
+    {
+      "tag": "mixin",
+      "files": [
+        {
+          "path": "",
+          "duration": 0000
+        },
+        {
+          "path": "",
+          "duration": 0000
+        },
+        {
+          "path": "",
+          "duration": 0000
+        }
+      ]
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "general"
+    },
+    "fragments": [
+      {
+        "tag": "general",
+        "src": {
+          "type": "group",
+          "groupTag": "general"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "track"
+          }
+        ]
+      },
+      {
+        "tag": "track",
+        "src": {
+          "type": "group",
+          "groupTag": "track"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "general",
+            "probability": 0.333
+          },
+          {
+            "fragmentTag": "track"
+          }
+        ],
+        "mixins": {
+          "pos": [
+            {
+              "tag": "begin",
+              "relativeOffset": 0.03
+            },
+            {
+              "tag": "end",
+              "relativeOffset": 0.97
+            }
+          ],
+          "mix": [
+            {
+              "tag": "mixins",
+              "src": {
+                "type": "group",
+                "groupTag": "mixin"
+              },
+              "condition": {
+                "type": "random",
+                "probability": 0.9
+              },
+              "posVariant": [
+                {
+                  "posTag": "end"
+                },
+                {
+                  "posTag": "begin"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
