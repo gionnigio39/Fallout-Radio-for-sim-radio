@@ -1,0 +1,14 @@
+{
+    "info": {
+        "title": "Fallout Radio",
+        "logo": "logo.png"
+    },
+    "common": {
+        "fileGroups": []
+    },
+    "stations": [
+        {
+            "path": "Chatterbox FM"
+        }
+    ]
+}
