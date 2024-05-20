@@ -24,16 +24,16 @@
       "tag": "general",
       "files": [
         {
-          "path": "",
-          "duration": 0000
+          "path": "silenzio.m4a",
+          "duration": 1
         },
         {
-          "path": "",
-          "duration": 0000
+          "path": "silenzio.m4a",
+          "duration": 1
         },
         {
-          "path": "",
-          "duration": 0000
+          "path": "silenzio.m4a",
+          "duration": 1
         }
       ]
     },
@@ -41,16 +41,16 @@
       "tag": "mixin",
       "files": [
         {
-          "path": "",
-          "duration": 0000
+          "path": "silenzio.m4a",
+          "duration": 1
         },
         {
-          "path": "",
-          "duration": 0000
+          "path": "silenzio.m4a",
+          "duration": 1
         },
         {
-          "path": "",
-          "duration": 0000
+          "path": "silenzio.m4a",
+          "duration": 1
         }
       ]
     }
